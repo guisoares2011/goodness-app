@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+             <!-- Customize your theme here. -->
+
+         </style>
+
+    <!-- Base application theme. -->
+    <style name="GoodnessTheme" parent="@android:style/Theme.Holo.Light">
+             <!-- Customize your theme here. -->
+             <item name="android:actionBarStyle">@style/Goodness.ActionBarStyle</item>
+         </style>
+
+
+    <!-- ActionBar styles -->
+    <style name="Goodness.ActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
+             <item name="android:background">@drawable/action_bar</item>
+             <item name="android:textColorPrimary">#ffffff</item>
+             <item name="android:titleTextStyle">@style/Goodness.ActionBar.TitleTextStyle</item>
+         </style>
+
+    <style name="Goodness.ActionBar.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+    </style>
+
+
+</resources>

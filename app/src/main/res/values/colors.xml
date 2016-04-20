@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="drawer_menu_background_button">#e6ecf1</color>
+    <color name="drawer_menu_space">#d4d5d7</color>
+    <color name="drawer_menu_text_button">#2780b7</color>
+    <color name="search_view_selected_text">#fffff9f0</color>
+    <color name="modal_text_color">#ff2e2e2e</color>
+    <color name="drawer_menu_background_button_pressed">#d6dee6</color>
+</resources>

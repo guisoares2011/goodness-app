@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SQL -->
+    <string name="create_database">
+        CREATE TABLE achievements(
+          id int PRIMARY KEY,
+          icon_name varchar(60),
+          name varchar(50) unique,
+          description varchar(120),
+          current_achievement TINYINT default 0,
+          unlocked TINYINT default 0
+        );
+    </string>
+
+    <string name="insert_achievements">
+         INSERT INTO
+            achievements (id, icon_name, name, description) VALUES
+            (1, \'icon_maneiro\', \'Test1\', \'Nesse Voce deve ajudar uma velhinas :D\'),
+            (2, \'icon_maneiro\', \'Test1\', \'Nesse Voce deve ajudar uma velhinas :D\'),
+            (3, \'icon_maneiro\', \'Test1\', \'Nesse Voce deve ajudar uma velhinas :D\');
+
+
+    </string>
+
+    <string name="update_database">
+        DROP TABLE IF EXISTS achievements;
+    </string>
+</resources>

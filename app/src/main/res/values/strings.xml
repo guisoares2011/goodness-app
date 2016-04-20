@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Goodness</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- Button Names -->
+    <string name="text_button_giveme_sugestions">Qual a minha boa ação do dia!</string>
+    <string name="text_done_suggestion">Boa ação realizada!</string>
+    <string name="text_list_achievements">Minhas boas ações</string>
+    <string name="pref_category_notification">Notificações</string>
+    <string name="pref_notification_enable_suggestions">Permitir sugestões diarias</string>
+    <string name="error_button_texto">Fechar</string>
+    <string name="button_modal_confirmation_ok">Confirmar</string>
+    <string name="button_modal_confirmation_cancelar">Cancelar</string>
+    <string name="OK">OK</string>
+    <string name="title_activity_lista_boas_acoes">Lista de Boas Ações</string>
+
+    <string name="hello_world">Hello world!</string>
+</resources>

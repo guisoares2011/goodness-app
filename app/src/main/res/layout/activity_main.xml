@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/blurred_backogrund"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="imabi.no.kyo.com.goodness.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/circle_logo">
+
+        </View>
+
+        <TextView
+            android:id="@+id/title_achievement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:textColor="#333333"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/description_achievement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#333333" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/give_me_suggestion_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/button_default"
+
+            android:onClick="giveSuggestionOrDoneOne"
+            android:padding="10dp"
+            android:text="@string/text_button_giveme_sugestions"
+            android:textColor="#333333" />
+
+        <Button
+            android:id="@+id/show_achivements_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+
+            android:background="@drawable/button_default"
+            android:padding="10dp"
+            android:text="@string/text_list_achievements"
+            android:textColor="#333333" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
